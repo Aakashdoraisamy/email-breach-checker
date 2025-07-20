@@ -9,7 +9,7 @@ A simple Python + Flask web application that checks if your **password** has bee
 - 🔍 **Secure password check**: Checks whether your password has been involved in a known breach.
 - 🛡️ **Privacy-first**: Implements **K-Anonymity** (your full password is never sent to the API).
 - 🌐 **Minimal web UI**: Built with **Flask**, using HTML and CSS in a single file for a lightweight frontend.
-- ⚙️ **Clean structure**: Backend (`app.py`) separated from UI (`templates/index.html` with embedded CSS).
+- ⚙️ **Clean structure**: Backend (`app.py`) separated from UI (`templates/index.html`).
 
 ---
 
