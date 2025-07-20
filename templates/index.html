@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Password Breach Checker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>🔒 Password Checker</h2>
+        <form method="POST">
+            <input type="password" name="password" placeholder="Enter your password" required>
+            <br>
+            <button type="submit">Check Password</button>
+        </form>
+        {% if result %}
+        <div class="result">
+            <p>{{ result }}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
