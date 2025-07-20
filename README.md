@@ -1,20 +1,22 @@
-# 📧 Email Breach Checker 🔐
+# 🔐 Password Breach Checker
 
-A simple Python + Flask web application to check if your password has been compromised using the [Have I Been Pwned](https://haveibeenpwned.com/API/v3#PwnedPasswords) API.
+A simple Python + Flask web application that checks if your **password** has been exposed in known data breaches, using the [Have I Been Pwned - Pwned Passwords API](https://haveibeenpwned.com/API/v3#PwnedPasswords).
 
 ---
 
 ## 🚀 Features
 
-- Enter your password and check if it has been part of a known data breach.
-- Uses **K-Anonymity** to protect your password while checking.
-- Built with **Flask** and styled using **HTML + CSS** in a single file.
+- 🔍 **Secure password check**: Checks whether your password has been involved in a known breach.
+- 🛡️ **Privacy-first**: Implements **K-Anonymity** (your full password is never sent to the API).
+- 🌐 **Minimal web UI**: Built with **Flask**, using HTML and CSS in a single file for a lightweight frontend.
+- ⚙️ **Clean structure**: Backend (`app.py`) separated from UI (`templates/index.html` with embedded CSS).
 
 ---
 
-## Tech Stack
-- Python
-- Flask
-- HTML + CSS
+## 🛠️ Tech Stack
+
+-  Python
+-  Flask
+-  HTML + CSS
 
 ---
