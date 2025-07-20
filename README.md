@@ -11,3 +11,10 @@ A simple Python + Flask web application to check if your password has been compr
 - Built with **Flask** and styled using **HTML + CSS** in a single file.
 
 ---
+
+## Tech Stack
+- Python
+- Flask
+- HTML + CSS
+
+---
